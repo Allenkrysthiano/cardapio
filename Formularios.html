@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Formulários - Menu</title>
+</head>
+<body style="background-color: rgb(233, 118, 118);">
+    <div>
+        <div class="card"></div>
+        <div class="card-header" style="text-align:center; color: white; background-color:rgba(21, 47, 192, 0.596);;"><h4>Novo Item</h4>
+        </div>
+       <div class="card-body">
+           <div class="row">
+               <div class="col">
+               <form action="/action_page.php">
+                <label for="file" class="form-label"><strong>Imagem</strong></label>
+                <input type="file" name="file" id="flie" class="forcontrol">            
+                </form>
+                </div>
+                <div class="col">
+                <form action="/action_page.php">
+                 <label for="text " class="form-label"><strong>Nome do item</strong></label>
+                 <input type="text" name="text" id="text" class="forcontrol">
+                </form>  
+               </div>
+               <div class="col">
+                <form action="/action_page.php">
+                 <label for="comments" class="form-label"><strong>Descrição</strong></label>
+                 <textarea name="text" id="text" cols="60" rows="3"></textarea>
+                </form>
+            </form>
+        </div>
+        <div class="col">
+        <form action="/action_page.php">
+         <label for="text " class="form-label"><strong>Preço</strong></label>
+         <input type="text" name="text" id="text" class="forcontrol">
+        </form>  
+            </div>               
+           </div>
+           <br>
+           <div class="row">
+               <div class="col">
+                <button type="button" class="btn-primary">Adicionar</button>
+               </div>
+               <div class="col-11">
+                <button type="button" class="btn-danger">Cancelar</button>
+               </div>
+           </div>
+       </div>       
+    </div>
+</body>
+</html>
